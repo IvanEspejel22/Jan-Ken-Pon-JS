@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 10px 30%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#caja{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#botones{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    height: 40vh;
+    width: 40vh;
+    color: transparent;
+}
+
+#roca{
+    border: none;
+    border-radius: 40px;
+    background-image: url("piedra.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 0,0, .6);
+}
+
+#papel{
+    border: none;
+    border-radius: 40px;
+    background-image: url("papel.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 255, 0, .6);
+}
+
+#tijera{
+    border: none;
+    border-radius: 40px;
+    background-image: url("tijera.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0, 255, .6)
+}
+
+#jugador1 , #jugador2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: auto;
+
+}
+
+#ganador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+
+}
+
+#ganador h1{
+    font-size: 60px;
+}
+
+ h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
